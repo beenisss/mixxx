@@ -367,8 +367,8 @@ void KeyControl::slotSyncKey(double v) {
 
 void KeyControl::slotResetKey(double v) {
     if (v > 0) {
-        m_pPitch->set(0);
-        slotPitchChanged(0);
+        m_pPitchAdjust->set(0);
+        slotPitchAdjustChanged(0);
     }
 }
 
